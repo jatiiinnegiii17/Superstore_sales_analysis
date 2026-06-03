@@ -10,11 +10,11 @@ Superstore_sales_analysis
 
 Dataset-> vrinda_store.csv        # The raw sales data (CSV format)
 
-create_table.sql            # Script to build the database and tables
+create_table.sql                  # Script to build the database and tables
 
-analysis_queries.sql        # SQL queries used to answer business questions
+analysis_queries.sql              # SQL queries used to answer business questions
 
-README.md                   # This project documentation
+README.md                         # This project documentation
 
 Author
 Jatin
