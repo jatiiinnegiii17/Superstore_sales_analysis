@@ -6,10 +6,14 @@ It’s a hands-on learning project, and while it's simple, it helped me bridge t
 Project Structure
 Here is how the files are organized in this repository:
 
-vrinda-store-mysql/
+Superstore_sales_analysis
+
 Dataset-> vrinda_store.csv        # The raw sales data (CSV format)
+
 create_table.sql            # Script to build the database and tables
+
 analysis_queries.sql        # SQL queries used to answer business questions
+
 README.md                   # This project documentation
 
 Author
