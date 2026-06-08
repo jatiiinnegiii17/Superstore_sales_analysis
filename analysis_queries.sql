@@ -23,6 +23,12 @@
 
 -- Level 4: Geographic Analysis
 -- select `city`, sum(`sales`) as total_sales  from record  group by `city` order by `total_sales` desc limit 10;
+-- select `state`, sum(`sales`) as total_sales  from record  group by `state` order by `total_sales` desc limit 10;
+-- select `city` , count(`order id`) as highest_order from record group by `city` order by highest_order desc limit 1;
+-- select `region`,count(distinct `customer id`) as highest_customer from record group by `region` order by highest_customer desc limit 1;
+-- select `state`, avg(`sales`) as highest_avg_sale from record group by `state` order by highest_avg_sale desc limit 1;
+ 
+
 
 
 
