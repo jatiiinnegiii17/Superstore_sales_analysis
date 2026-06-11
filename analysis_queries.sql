@@ -28,7 +28,13 @@
 -- select `region`,count(distinct `customer id`) as highest_customer from record group by `region` order by highest_customer desc limit 1;
 -- select `state`, avg(`sales`) as highest_avg_sale from record group by `state` order by highest_avg_sale desc limit 1;
  
-
+-- Level 5: Product Analysis
+-- select `product name` , round(sum(sales),2) as total_sales from record group by `product name` order by total_sales desc limit 10;
+-- select `category`,count(`order id`) as orders from record group by `category` order by orders desc limit 1;
+-- select `sub-category`,count(`order id`) as orders from record group by `sub-category` order by orders desc limit 1;
+-- select `sub-category`,count(`order id`) as orders from record group by `sub-category` order by orders desc limit 5;
+-- select `product name`, count(`order id`) as orders from record group by `product name` having orders >10 order by orders desc;
+-- select category,sum(sales) AS total_sales,round(sum(sales) / (select  sum(sales) from record) * 100,2) as contribution from record group by category order by contribution desc;
 
 
 
